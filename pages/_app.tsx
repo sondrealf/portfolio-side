@@ -2,17 +2,14 @@ import '../styles/globals.css'
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import type { AppProps } from 'next/app';
-import { ThemeProvider } from 'next-themes';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <ThemeProvider>
+      <div className="bg-stone-900 dark:bg-gray-100">
       <Navigation />
       <Component {...pageProps} />
       <Footer />
-      </ThemeProvider>
-    </>
+      </div>
   )
 }
 

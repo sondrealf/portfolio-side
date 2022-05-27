@@ -7,10 +7,10 @@ const About = () => {
         <div className="container px-4 mx-auto">
             <div className="lg:space-x-5 lg:flex lg:flex-row item-center lg:-mx-4 flex flex-col-reverse text-center lg:text-left">
                 <div className="lg:px-4 lg:mt-12 ">
-                    <h1 className="text-2xl font-bold text-gray-900 lg:text-5xl dark:text-white">
+                    <h1 className="text-2xl font-bold text-white lg:text-5xl dark:text-gray-900">
                         Hey there,
                     </h1>
-                    <div className="mt-6 text-gray-800 dark:text-white"> 
+                    <div className="mt-6 text-white dark:text-gray-800"> 
                         <p className="mb-4">
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
