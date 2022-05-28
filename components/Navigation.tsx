@@ -10,7 +10,7 @@ const Navigation = () => {
                         <a
                             className={"font-medium tracking-wider transition-colors hover:text-sky-500 uppercase text-white dark:text-gray-900"}
                         >
-                            Your Name
+                            Sondre Alfnes
                         </a>
                     </Link>
 
