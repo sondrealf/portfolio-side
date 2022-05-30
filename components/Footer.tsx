@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
     return (
         <div className="py-6">
-            <div className="max-w-4xl  mx-auto text-white dark:text-gray-800">
+            <div className="w-11/12 mx-auto text-white dark:text-gray-800">
                 <div className="pb-8 mb-2 border-t-2 border-gray-300 dark:border-white-300"></div>
                 <div className="flex flex-col justify-between lg:flex-row items-center">
                     <p>Built with Next.js, Tailwind and Vercel</p>
@@ -31,7 +31,7 @@ const Footer = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Min CV
+                            My CV
                         </a>
                     </div>
                 </div>
