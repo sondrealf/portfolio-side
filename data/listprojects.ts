@@ -1,5 +1,6 @@
 
 const data: any[] = [
+    /*
     {
         header: "Portfolio website",
         subheader: "A personal website about me",
@@ -10,13 +11,20 @@ const data: any[] = [
                 features: [
                     "Hooks",
                 ]
+            },
+            {
+                name: "Typescript",
+                image: "#",
+                features: [
+                    "Hooks"
+                ]
             }
         ],
         frontImage: "front1.jpeg",
         backImage: "back1.jpeg",
         source: "#",
         live: "#"
-    },
-
+    }
+    */
 ];
 export default data

@@ -4,6 +4,7 @@ import Image from "next/image"
 const Project = (obj: any) => {
     let hei = "front1.jpeg"
     let front = require("../data/images/" + obj.frontImage);
+
     return (
         <div className="flex flex-col md:flex-row bg-slate-800 w-11/12 mt-10 mx-auto h-104 rounded-xl border-2 border-slate-700 p-3"> 
         
