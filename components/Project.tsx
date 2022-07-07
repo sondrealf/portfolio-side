@@ -25,11 +25,14 @@ const Project = (obj: any) => {
                     <h2 className="text-white text-center mt-6"> Technology Used</h2>
 
 
-                    <div className="flex justify-around">
+                    <div className="flex justify-around flex-wrap">
                         {obj.technology.map((tech: any) => (
-                            <div className="w-1/2 md:w-1/4">
-                                <div className="bg-slate-700 border-2 border-slate-700 rounded-xl p-3">
+                            <div className="w-40">
+                                <div className="bg-slate-700 border-1 border-slate-700 rounded-xl p-1 m-1">
                                     <h1 className="text-white text-center text-2xl font-bold">{tech.name}</h1>
+                                    {tech.features.map((feature: any) => (
+                                        <div className="text-white text-center  font-bold">{feature}</div>
+                                    ))}
                                 </div>
                             </div>
                         ))}

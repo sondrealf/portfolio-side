@@ -9,6 +9,35 @@ const data: any[] = [
                 image: "#",
                 features: [
                     "Hooks",
+                    "Router",
+                ]
+            },
+            {
+                name: "Tailwind CSS",
+                image: "#",
+                features: [
+                    "Hooks"
+                ]
+            },
+            {
+                name: "Tailwind CSS",
+                image: "#",
+                features: [
+                    "Hooks"
+                ]
+            },
+            {
+                name: "Tailwind CSS",
+                image: "#",
+                features: [
+                    "Hooks"
+                ]
+            },
+            {
+                name: "Tailwind CSS",
+                image: "#",
+                features: [
+                    "Hooks"
                 ]
             },
             {
