@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import About from "../components/About";
-import Projects from "../components/Projects";
+import About from '../components/About'
+import Projects from '../components/Projects'
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
 
       <main className=" mx-auto mt-16 antialiased">
-        <About/>
-        <Projects/>
+        <About />
+        <Projects />
       </main>
     </div>
   )
