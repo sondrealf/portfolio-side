@@ -48,12 +48,12 @@ const data: any[] = [
     technology: [
       {
         name: 'Gatsby',
-        image: '#',
+        Icon: SiNextdotjs,
         features: ['Hooks'],
       },
       {
         name: 'Tailwind CSS',
-        image: '#',
+        Icon: SiNextdotjs,
         features: ['Hooks'],
       },
     ],
