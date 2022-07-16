@@ -6,8 +6,8 @@ import reactlogo from './logos/react-icon.svg'
 import w3_css from './logos/w3_css-icon.svg'
 import w3_html from './logos/w3_html5-icon.svg'
 import w3_js from './logos/w3_js-icon.svg'
-import front1 from './images/front1.jpeg'
-import back1 from './images/back1.jpeg'
+import front1 from './images/front1.png'
+import back1 from './images/back1.png'
 
 const data: any[] = [
   {

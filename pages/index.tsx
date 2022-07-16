@@ -9,7 +9,6 @@ export default function Home() {
         <title>Sondre Alfnes</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className=" mx-auto mt-16 antialiased">
         <About />
         <Projects />
