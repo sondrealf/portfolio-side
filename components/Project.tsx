@@ -10,7 +10,12 @@ const Project = (obj: any) => {
         {obj.header}
       </h1>
       <div className="mx-auto mt-2 flex w-11/12 flex-col rounded-xl border-2 border-slate-700 p-3 dark:bg-slate-300 md:flex-row">
-        <Card frontImage={obj.frontImage} backImage={obj.backImage} />
+        <Card
+          frontImage={obj.frontImage}
+          backImage={obj.backImage}
+          githubLink={obj.source}
+          liveLink={obj.live}
+        />
 
         <div className="w-full md:w-1/2">
           <h1 className="mt-8 text-center text-2xl font-bold text-blue-400">

@@ -1,13 +1,18 @@
 import React, { useState } from 'react'
 import { useSpring, a } from '@react-spring/web'
 import Image from 'next/image'
+import { FaGlobe, FaGithub } from 'react-icons/fa/'
 
 const Card = ({
   frontImage,
   backImage,
+  githubLink,
+  liveLink,
 }: {
   frontImage: any
   backImage: any
+  githubLink: string
+  liveLink: string
 }) => {
   const [flipped, set] = useState(false)
   const { transform, opacity } = useSpring({
@@ -30,7 +35,9 @@ const Card = ({
       >
         <div className="relative m-auto w-0">
           <div className="absolute left-[-20rem] m-auto w-[40rem]">
-            <Image src={frontImage} />
+            <div className="absolute top-0">
+              <Image src={frontImage} />
+            </div>
           </div>
         </div>
       </a.div>
@@ -43,8 +50,34 @@ const Card = ({
           rotateX: '180deg',
         }}
       >
+        <div className="absolute z-20 flex h-full w-full justify-evenly">
+          {githubLink == '' ? (
+            <></>
+          ) : (
+            <a
+              href={githubLink}
+              className="my-auto cursor-pointer text-white hover:text-slate-400"
+            >
+              <FaGithub className="mx-auto text-6xl" />
+              <p className="font-bold">View Source</p>
+            </a>
+          )}
+
+          {liveLink == '' ? (
+            <></>
+          ) : (
+            <a
+              href={liveLink}
+              className="my-auto cursor-pointer text-white hover:text-slate-400"
+            >
+              <FaGlobe className="mx-auto text-6xl" />
+              <p className="font-bold">View Live Version</p>
+            </a>
+          )}
+        </div>
         <div className="relative m-auto w-0">
           <div className="absolute left-[-20rem] m-auto w-[40rem]">
+            <div className="absolute z-10 h-full w-full bg-black opacity-40" />
             <Image src={backImage} />
           </div>
         </div>

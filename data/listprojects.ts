@@ -8,6 +8,10 @@ import w3_html from './logos/w3_html5-icon.svg'
 import w3_js from './logos/w3_js-icon.svg'
 import front1 from './images/front1.png'
 import back1 from './images/back1.png'
+import cvFront from './images/cvFront.png'
+import cvBak from './images/cvBak.png'
+import nalaFront from './images/nalaFront.png'
+import nalaBack from './images/nalaBack.png'
 
 const data: any[] = [
   {
@@ -27,13 +31,13 @@ const data: any[] = [
       {
         name: 'ReactSpring',
         logo: reactspring,
-        features: ['useSpring', 'useTrail', 'transitions'],
+        features: ['useSpring'],
       },
     ],
     frontImage: front1,
     backImage: back1,
-    source: '#',
-    live: '#',
+    source: 'https://github.com/sondrealf/portfolio-side',
+    live: '',
   },
   {
     header: 'CV',
@@ -50,10 +54,10 @@ const data: any[] = [
         features: [],
       },
     ],
-    frontImage: front1,
-    backImage: back1,
-    source: '#',
-    live: '#',
+    frontImage: cvFront,
+    backImage: cvBak,
+    source: 'https://github.com/sondrealf/cv',
+    live: 'https://cv.alfnes.dev/',
   },
   {
     header: 'Dog website',
@@ -75,10 +79,10 @@ const data: any[] = [
         features: [],
       },
     ],
-    frontImage: front1,
-    backImage: back1,
-    source: '#',
-    live: '#',
+    frontImage: nalaFront,
+    backImage: nalaBack,
+    source: 'https://github.com/Ulisman/Webtek-prosjekt',
+    live: 'https://nala.alfnes.dev/',
   },
 ]
 export default data

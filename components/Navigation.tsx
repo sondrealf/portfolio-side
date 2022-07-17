@@ -1,23 +1,25 @@
-import Link from "next/link"
-import React from "react"
-import ThemeSwitch from "./ThemeSwitch"
+import Link from 'next/link'
+import React from 'react'
+import ThemeSwitch from './ThemeSwitch'
 
 const Navigation = () => {
-    return (
-            <div className="sticky top-0 z-20 py-2 bg-black dark:bg-gray-200 md:py-6 md:mb-6 bg-opacity-40 dark:bg-opacity-40 ">
-                <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
-                    <Link href="/">
-                        <a
-                            className={"font-medium tracking-wider transition-colors hover:text-sky-500 uppercase text-white dark:text-gray-900"}
-                        >
-                            Sondre Alfnes
-                        </a>
-                    </Link>
+  return (
+    <div className="sticky top-0 z-20 bg-black bg-opacity-40 py-2 dark:bg-gray-400 dark:bg-opacity-40 md:mb-6 md:py-6 ">
+      <div className="container mx-auto flex items-center justify-between px-4 lg:max-w-4xl">
+        <Link href="/">
+          <a
+            className={
+              'font-medium uppercase tracking-wider text-white transition-colors hover:text-sky-500 dark:text-gray-900'
+            }
+          >
+            Sondre Alfnes
+          </a>
+        </Link>
 
-                    <ThemeSwitch />
-                </div>
-        </div>
-    )
+        <ThemeSwitch />
+      </div>
+    </div>
+  )
 }
 
-export default Navigation;
+export default Navigation
