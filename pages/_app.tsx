@@ -5,7 +5,7 @@ import type { AppProps } from 'next/app'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <div className="min-h-screen bg-neutral-900 dark:bg-gray-200">
+    <div className="min-h-screen min-w-[100vw] bg-neutral-900 dark:bg-gray-200">
       <Navigation />
       <Component {...pageProps} />
       <Footer />
